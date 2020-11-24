@@ -52,3 +52,43 @@ append key value
 strlen key
 
 msetnx key value[key value...]
+
+hset key field value
+
+hget key field
+
+hmset key field value[field value.....]
+
+hmset key field[field...]
+
+hgetall key
+
+hlen key
+
+hstrlen key field
+
+hkeys key
+
+hvals key
+
+hdel key field [field...]
+
+hsetnx key field value
+
+hexists key field
+
+hincrby key field increment
+
+hincrbyfloat key field increment
+
+lpush key value[value....]
+
+rpush key value[value....]
+
+lpop key
+
+rpop key
+
+llen key
+
+linsert key before|after pivot value
