@@ -92,3 +92,27 @@ rpop key
 llen key
 
 linsert key before|after pivot value
+
+sadd key member[member...]
+
+scard key
+
+sunion key[key...]
+
+sinter key[key...]
+
+sdiff key[key...]
+
+smembers key
+
+srem key member[member....]
+
+spop key [count]
+
+sdiffstore destination key[key...]
+
+sinterstore destination key[key...]
+
+sunionstore destination key[key...]
+
+sismember key member
