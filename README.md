@@ -116,3 +116,23 @@ sinterstore destination key[key...]
 sunionstore destination key[key...]
 
 sismember key member
+
+zadd key score value
+
+zcard key
+
+zcount key min max
+
+zrange key start stop
+
+zrange key start stop [withscores]
+
+zrem key member [withscores]
+
+zrank key member
+
+zrevrank key member
+
+zrangebyscore key min max [withscores]
+
+
