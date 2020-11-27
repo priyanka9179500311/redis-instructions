@@ -135,4 +135,8 @@ zrevrank key member
 
 zrangebyscore key min max [withscores]
 
+publish channel message
 
+subscribe channel [channel...]
+
+psubscribe pattern [pattern...]
